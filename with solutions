@@ -1,0 +1,16 @@
+# Write a Python program to sum of two given integers. However, if the sum is between 15 to 20 it will return 20.
+
+
+def my_sum_function():
+    number1 = int(input('Enter number1: '))
+    number2 = int(input('Enter number2: '))
+
+    result = number1 + number2
+
+    if result in range(15, 20):
+        print('value is: ', 20)
+    else:
+        print('value is: ', result)
+
+
+my_sum_function()
